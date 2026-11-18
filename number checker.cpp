@@ -6,7 +6,7 @@ int main() {
     int num;
 
     cout << "=============================" << endl;
-    cout << "   ODD OR EVEN NUMBER CHECKER " << endl;
+    cout << "  NUMBER CHECKER " << endl;
     cout << "=============================" << endl;
     
     // Prompt the user for input
