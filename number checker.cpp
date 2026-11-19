@@ -14,7 +14,7 @@ int main() {
         cout << "\nEnter an integer: ";
         cin >> num;
 
-        // This will if the number is divisibisible  by 2
+        // This will check  if the number is divisibisible  by 2
         if (num % 2 == 0) {
             cout << "Result: " << num << " is an Even number." << endl;
         } else {
