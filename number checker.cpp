@@ -8,16 +8,18 @@ int main() {
     cout << "=============================" << endl;
     cout << "  NUMBER CHECKER " << endl;
     cout << "=============================" << endl;
-    
-    // Prompt the user for input
-    cout << "Enter an integer: ";
-    cin >> num;
 
-    // Check divisibility by 2 using the modulus operator
-    if (num % 2 == 0) {
-        cout << "\nResult: " << num << " is an Even number." << endl;
-    } else {
-        cout << "\nResult: " << num << " is an Odd number." << endl;
+    while (true) {
+        // Prompt the user for input
+        cout << "\nEnter an integer: ";
+        cin >> num;
+
+        // This will if the number is divisibisible  by 2
+        if (num % 2 == 0) {
+            cout << "Result: " << num << " is an Even number." << endl;
+        } else {
+            cout << "Result: " << num << " is an Odd number." << endl;
+        }
     }
 
     return 0;
